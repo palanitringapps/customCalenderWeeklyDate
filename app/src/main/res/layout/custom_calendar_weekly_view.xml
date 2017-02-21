@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical" >
+
+    <com.customcalenderweeklydate.InfiniteCalendarView
+        android:id="@+id/infiniteCalenderView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@drawable/shape_view_gradient" />
+
+    <TextView
+        android:id="@+id/fullDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/recycle"
+        android:textSize="14sp"
+         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@drawable/shape_view_gradient" />
+</LinearLayout>
